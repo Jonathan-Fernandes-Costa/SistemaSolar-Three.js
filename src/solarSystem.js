@@ -31,7 +31,7 @@ export function initSolarSystem() {
 
   //////////////////////////////////////
   // Carregamento de todas as texturas necessárias para o sistema solar
-  const caminhoTexturas = "../public/assets/texturas"
+  const caminhoTexturas = "../assets/texturas"
 
   const caminho2k = caminhoTexturas + "/2k"
   const caminho8k = caminhoTexturas + "/8k"
@@ -64,11 +64,11 @@ export function initSolarSystem() {
 
   // Carregamento das texturas para o sistema da equipe
   const teamTextures = {
-    member1: textureLoader.load("../public/assets/fotos/ialis.jpg"),
-    member2: textureLoader.load("../public/assets/fotos/jardel.jpg"),
-    member3: textureLoader.load("../public/assets/fotos/wesley.jpg"),
-    member4: textureLoader.load("../public/assets/fotos/alisson.jpg"),
-    member5: textureLoader.load("../public/assets/fotos/jhon.jpg"),
+    member1: textureLoader.load("../assets/fotos/ialis.jpg"),
+    member2: textureLoader.load("../assets/fotos/jardel.jpg"),
+    member3: textureLoader.load("../assets/fotos/wesley.jpg"),
+    member4: textureLoader.load("../assets/fotos/alisson.jpg"),
+    member5: textureLoader.load("../assets/fotos/jhon.jpg"),
     halo: textureLoader.load(caminhoAneis + "/saturn_ring.png"),
   };
 
